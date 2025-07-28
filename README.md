@@ -1,6 +1,3 @@
-Berikut adalah README yang lengkap dan profesional untuk proyek Flask API deteksi spam berbasis model PyTorch dan preprocessing Bahasa Indonesia:
-
----
 
 # 🛡️ Spam Detection API (Bahasa Indonesia)
 
