@@ -106,6 +106,43 @@ API akan aktif di:
 }
 ```
 
+Berikut adalah penambahan metrik evaluasi model Anda yang bisa dimasukkan ke dalam laporan, presentasi, atau dokumentasi proyek Flask API dengan TensorFlow Lite:
+
+---
+
+### 🔍 Hasil Evaluasi Model Deteksi Spam
+
+Model deteksi spam telah diuji dan memberikan hasil evaluasi sebagai berikut:
+
+* **Akurasi**   : **94.51%**
+* **Presisi**   : **96.83%**
+* **Recall**    : **92.08%**
+* **F1-score**  : **94.39%**
+
+#### 📊 *Classification Report*:
+
+| Kelas      | Presisi | Recall | F1-score | Support |
+| ---------- | ------- | ------ | -------- | ------- |
+| Bukan Spam | 0.92    | 0.97   | 0.95     | 263     |
+| Spam       | 0.97    | 0.92   | 0.94     | 265     |
+
+* **Accuracy keseluruhan**: 0.95 (528 data)
+* **Macro Average**:
+
+  * Presisi: 0.95
+  * Recall: 0.95
+  * F1-score: 0.95
+* **Weighted Average**:
+
+  * Presisi: 0.95
+  * Recall: 0.95
+  * F1-score: 0.95
+
+---
+
+Jika ingin saya bantu memasukkan ini langsung ke dalam file Python (misal dalam endpoint Flask `/predict` atau `/metrics`), silakan kirimkan file atau skripnya.
+
+
 ### 🔄 Endpoint: `GET /`
 
 Mengecek apakah API aktif.
